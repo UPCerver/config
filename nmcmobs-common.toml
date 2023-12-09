@@ -1,0 +1,1351 @@
+
+[FourArmsSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 30.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	normalAttackDamage = 60.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 15.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:meadow"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[DesertSpider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 25.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#desert"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 5
+
+[Hippo]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 20
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#swamp"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[CorruptedFourArmsSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:flower_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Shark]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 2
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 40
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 25.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 5
+
+[Triceratops]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 30.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:windswept_hills"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[SabertoothTiger]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 40.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	clawAttackDamage = 23.5
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 40.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#jungle"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[SkeletonCyclops]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	punchAttackDamage = 13.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	laserClubAttackDamage = 10.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	grabAttackDamage = 60.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	laserEyeAttackDamage = 11.0
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 15.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	clubAttackDamage = 12.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:soul_sand_valley", "minecraft:basalt_deltas"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	slashAttackDamage = 15.0
+
+[Doe]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 24.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 1.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Seagull]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 5
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:flower_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[CorruptedTallSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:basalt_deltas"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Merpeople]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 100.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 7.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[CapePirateSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 6.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swingAttackDamage = 4.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 80.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:beach"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[AngryHog]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 60.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#jungle"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[ThunderDragon]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5000.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	electrifiedAttackDamage = 300.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#desert"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[SmallPiranha]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 10
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 1.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:river"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 10
+
+[Centaur]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 200.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[CaptainPirateSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 8.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swingAttackDamage = 8.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 200.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:beach"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[UnderlingRaider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 50.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#jungle"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[Ostrich]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#savanna"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[SmallPirateSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 5.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swingAttackDamage = 5.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 80.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:beach"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Giraffe]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#savanna"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[IceDragon]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	frozenBreathAttackDamage = 60.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 250.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	tailAttackDamage = 400.0
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5000.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 10.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:snowy_plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	icicleAttackDamage = 400.0
+
+[FireDragon]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	diveAttackDamage = 4.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fireballAttackDamage = 5.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 3.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	tailAttackDamage = 4.0
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 5.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:beach"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[TallSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 10.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	normalAttackDamage = 24.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:soul_sand_valley"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[T-Rex]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	chargeAttackDamage = 80.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 40.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stompAttackDamage = 1.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5000.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 90.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:windswept_hills"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Brachiosaurus]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	megaStompAttackDamage = 800.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stompAttackDamage = 800.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	tailAttackDamage = 600.0
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5000.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 100.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:windswept_hills"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Fairy]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 5
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:flower_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[Stag]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 40.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 1.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Garbage]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 600.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 7.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[TentaclePirateSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 7.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swingAttackDamage = 7.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 100.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:beach"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Butterfly]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:sunflower_plains", "minecraft:flower_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 5
+
+[BabyUnicorn]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Zebra]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#savanna"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[BabySeal]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:frozen_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[FrostSpider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:ice_spikes"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[Bear]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 80
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 90.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 6.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[CorruptedDogSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 70.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:sunflower_plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[BigPiranha]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 10
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 4.15
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:ocean", "minecraft:deep_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 10
+
+[Fawn]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 12.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Crocodile]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 4.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#swamp"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[DireWerewolf]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	eatAttackDamage = 300.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 12.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	hitAttackDamage = 8.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	pounceAttackDamage = 6.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swipeAttackDamage = 15.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	relentlessAttackDamage = 6.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 6.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[Werewolf]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 10.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	clawAttackDamage = 8.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 50
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 120.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 1.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:forest", "minecraft:dark_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[UltraFireDragon]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fireballAttackDamage = 50.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 20.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	tailAttackDamage = 40.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 5000.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 120.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:warm_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Phoenix]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 10
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:stony_shore"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[MountainGoat]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 2
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 8.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:windswept_hills", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[RamGoat]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 2
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 8.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:windswept_hills", "minecraft:snowy_slopes", "minecraft:frozen_peaks", "minecraft:jagged_peaks"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[DogSkeleton]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 2
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	stabAttackDamage = 4.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	normalAttackDamage = 20.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 40.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[Leprechaun]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 200.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.01
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:sunflower_plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 5
+
+[Rhino]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 3.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#savanna"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Gryphon]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:wooded_badlands"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 4
+
+[Unicorn]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[KillerSquid]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 70
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 400.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 1.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:deep_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	inkAttackDamage = 10.0
+
+[GiantSpider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	spitAttackDamage = 4.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 7.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	poisonAttackDamage = 4.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 25
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 400.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 0.5
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#plains"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[Pegasus]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 50.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:flower_forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[DrownedVampirePirate]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	biteAttackDamage = 6.0
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#mesa"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[KillerWhale]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 80.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:deep_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
+[MiniSpider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 3
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 80.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#desert"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 5
+
+[ChieftanRaider]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 100
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 8.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["#jungle"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 2
+
+[Minotaur]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 1
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 3000.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	sideSlashAttackDamage = 2000.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:nether"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[LaserShark]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 30
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#The base amount of damage the entity can deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	baseDamage = 80.0
+	#The amount of damage the attack will deal.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	laserAttackDamage = 400.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:deep_ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[BearCub]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 80
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 15.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:forest"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 1
+
+[BlueWhale]
+	#The min amount of entities that will try to spawn.
+	#Range: 0 ~ 100
+	spawnMin = 1
+	#The weight for this entity spawning.
+	#Range: 0 ~ 100
+	spawnWeight = 40
+	#The maximum amount of health the entity can have.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	maxHealth = 500.0
+	#List of biomes this entity is allowed to spawn in.
+	#Supports biome registry names (eg. minecraft:desert) or biomes categories using # (eg. #nether)
+	spawnBiomes = ["minecraft:ocean"]
+	#The max amount of entities that can spawn each time.
+	#Range: 0 ~ 100
+	spawnMax = 3
+
